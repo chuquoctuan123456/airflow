@@ -1,0 +1,6 @@
+#apache-airflow==2.9.2  # Phiên bản phù hợp với hệ thống của bạn
+apache-airflow-providers-postgres  # Đảm bảo sử dụng đúng phiên bản provider PostgreSQL
+psycopg2-binary  # Để kết nối với PostgreSQL
+pandas # Dùng để xử lý dữ liệu
+pymongo 
+apache-airflow-providers-mongo

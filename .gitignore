@@ -1,0 +1,17 @@
+# Bỏ qua toàn bộ thư mục logs
+logs/
+
+# Bỏ qua toàn bộ file trong data trừ employees.csv
+data/*
+!data/employees.csv
+
+# Chỉ đẩy thư mục con learn trong dags
+dags/*
+!dags/learn/
+
+# Bỏ qua file cache Python (__pycache__)
+__pycache__/
+
+# Bỏ qua tất cả các tệp tạm thời hoặc không cần thiết
+*.log
+*.tmp
